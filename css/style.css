@@ -17,7 +17,12 @@ body {
 
 /* Titles */
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway";
   font-weight: 300;
   color: #333;
@@ -46,13 +51,15 @@ a {
   transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   color: #7b7b7b;
   text-decoration: none;
   outline: 0;
 }
 
-a:before, a:after {
+a:before,
+a:after {
   -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
   -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
   -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -80,7 +87,8 @@ hr {
   right: 0;
   z-index: 10000;
   overflow: visible;
-  font: normal 16px/24px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: normal 16px/24px "Open Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
 }
 
 #section-topbar a {
@@ -110,7 +118,7 @@ By default, top navigation bar uses "fixed" position
   *display: inline;
 }
 
-#section-topbar ul#nav>li {
+#section-topbar ul#nav > li {
   display: block;
   float: left;
   padding: 0;
@@ -193,7 +201,8 @@ SECTION WRAPS
   color: white;
 }
 
-#intro h5, p {
+#intro h5,
+p {
   color: white;
 }
 
@@ -211,7 +220,8 @@ SECTION WRAPS
   color: white;
 }
 
-#skillswrap h5, p {
+#skillswrap h5,
+p {
   color: white;
 }
 
@@ -278,7 +288,11 @@ SECTION WRAPS
 }
 
 .desc more {
-  color: #95a5a6;
+  color: #8a9a9c;
+}
+
+.desc li {
+  color: #8a9a9c;
 }
 
 sm {
@@ -291,7 +305,8 @@ sm {
   color: #999;
 }
 
-.contact-form input, .contact-form textarea {
+.contact-form input,
+.contact-form textarea {
   padding: 10px 12px;
   border-radius: 0;
   box-shadow: none;
