@@ -20,11 +20,11 @@ jQuery(document).ready(function( $ ) {
 
   // google cloud Chart
   var doughnutData = [{
-      value: 70,
+      value: 75,
       color: "#1abc9c"
     },
     {
-      value: 30,
+      value: 25,
       color: "#ecf0f1"
     }
   ];
@@ -32,11 +32,11 @@ jQuery(document).ready(function( $ ) {
 
   // aws Chart
   var doughnutData = [{
-    value: 70,
+    value: 75,
     color: "#1abc9c"
   },
   {
-    value: 30,
+    value: 25,
     color: "#ecf0f1"
   }
   ];
@@ -56,11 +56,11 @@ jQuery(document).ready(function( $ ) {
 
   // java Chart
   var doughnutData = [{
-    value: 85,
+    value: 75,
     color: "#1abc9c"
   },
   {
-    value: 15,
+    value: 25,
     color: "#ecf0f1"
   }
   ];
@@ -68,11 +68,11 @@ jQuery(document).ready(function( $ ) {
 
   // python Chart
   var doughnutData = [{
-    value: 60,
+    value: 75,
     color: "#1abc9c"
   },
   {
-    value: 40,
+    value: 25,
     color: "#ecf0f1"
   }
   ];
@@ -80,11 +80,11 @@ jQuery(document).ready(function( $ ) {
 
   // javascript Chart
   var doughnutData = [{
-    value: 60,
+    value: 75,
     color: "#1abc9c"
   },
   {
-    value: 40,
+    value: 25,
     color: "#ecf0f1"
   }
   ];
@@ -92,35 +92,35 @@ jQuery(document).ready(function( $ ) {
 
   // spring Chart
   var doughnutData = [{
-    value: 85,
+    value: 70,
     color: "#1abc9c"
   },
   {
-    value: 15,
+    value: 30,
     color: "#ecf0f1"
   }
   ];
   var myDoughnut = new Chart(document.getElementById("spring").getContext("2d")).Doughnut(doughnutData);
 
-  // springboot Chart
+  // flask Chart
   var doughnutData = [{
-    value: 85,
+    value: 70,
     color: "#1abc9c"
   },
   {
-    value: 15,
+    value: 30,
     color: "#ecf0f1"
   }
   ];
-  var myDoughnut = new Chart(document.getElementById("springboot").getContext("2d")).Doughnut(doughnutData);
+  var myDoughnut = new Chart(document.getElementById("flask").getContext("2d")).Doughnut(doughnutData);
 
   // hibernate Chart
   var doughnutData = [{
-    value: 80,
+    value: 70,
     color: "#1abc9c"
   },
   {
-    value: 20,
+    value: 30,
     color: "#ecf0f1"
   }
   ];
@@ -152,11 +152,11 @@ jQuery(document).ready(function( $ ) {
 
   // mongodb Chart
   var doughnutData = [{
-    value: 70,
+    value: 65,
     color: "#1abc9c"
   },
   {
-    value: 30,
+    value: 35,
     color: "#ecf0f1"
   }
   ];
@@ -188,11 +188,11 @@ jQuery(document).ready(function( $ ) {
 
   // maven Chart
   var doughnutData = [{
-    value: 90,
+    value: 80,
     color: "#1abc9c"
   },
   {
-    value: 10,
+    value: 20,
     color: "#ecf0f1"
   }
   ];
